@@ -1,0 +1,82 @@
+[
+  {
+    "id":"1",
+    "question": "1.Which of the following is not a Java feature?",
+    "options": [
+      "A)Object-oriented",
+      "B)Portable",
+      "C)Dynamic",
+      "D)Use of pointers"
+    ],
+    "CorrectAnswer": "D)Use of pointers",
+    "YourAnswer":null
+  },
+  {
+    "id":"2",
+    "question": "2.Which of these is used to find and fix bugs in Java programs?",
+    "options": ["A)JVM", "B)JRE", "C)JDK", "D)JDB"],
+    "CorrectAnswer": "D)JDB",
+    "YourAnswer":null
+  },
+  {
+    "id":"3",
+    "question": "3.What is the return type of the hashCode() method in Java?",
+    "options": ["A)Object", "B)int", "C)long", "D)void"],
+    "CorrectAnswer": "B)int",
+    "YourAnswer":null
+  },
+  {
+    "id":"4",
+    "question": "4.Which keyword is used to inherit a class in java?",
+    "options": ["A)this", "B)super", "C)extends", "D)implements"],
+    "CorrectAnswer": "C)extends",
+    "YourAnswer":null
+  },
+  {
+    "id":"5",
+    "question": "5.Which of the following is a marker interface?",
+    "options": ["A)Runnable", "B)Serializable", "C)Comparable", "D)Cloneable"],
+    "CorrectAnswer": "B)Serializable",
+    "YourAnswer":null
+  },
+  {
+    "id":"6",
+    "question": "6.Which method is called automatically called when object is created?",
+    "options": ["A)main()", "B)start", "C)constructor", "D)init()"],
+    "CorrectAnswer": "C)constructor",
+    "YourAnswer":null
+  },
+  {
+    "id":"7",
+    "question": "7.Which of the following is true about the final keyword in Java?",
+    "options": [
+      "A)It can be used with classes but not methods",
+      "B)It prevents inheritance and modification",
+      "C)It makes a variable mutable",
+      "D)It is used only in interfaces"
+    ],
+    "CorrectAnswer": "B)It prevents inheritance and modification",
+    "YourAnswer":null
+  },
+  {
+    "id":"8",
+    "question": "8.What is the size of int data type in Java?",
+    "options": ["A)8 bits", "B)16 bits", "C)32 bits", "D)64 bits"],
+    "CorrectAnswer": "c)32 bits",
+    "YourAnswer":null
+  },
+  {
+    "id":"9",
+    "question": "9.Which of the following can be used to handle exceptions in Java?",
+    "options": ["A)try-catch", "B)throw", "C)throws", "D)All of th above"],
+    "CorrectAnswer": "D)All of the above",
+    "YourAnswer":null
+  },
+  {
+    "id":"10",
+    "question": "10.Which collections class allows you to store unique elements and has no defined order?",
+    "options": ["A)List", "B)Set", "C)Map", "D)Queue"],
+    "CorrectAnswer": "B)Set",
+    "YourAnswer":null
+  }
+]

@@ -1,0 +1,250 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.quiz {
+  height: 100vh;
+  overflow: hidden;
+  
+}
+.quiz header {
+  display: flex;
+  justify-content: space-between;
+  height: 10%;
+  padding: 1rem 2rem;
+  background-color: orange;
+}
+.quiz header h4{
+  color: black;
+}
+.quiz main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 1rem 2rem;
+  background-color: black;
+  color: orange;
+  height: 80%;
+}
+.qst{
+  margin-left: 10px;
+}
+.opt{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+}
+.btn button{
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: orange;
+  border: none;
+}
+.btn button:hover{
+  cursor: pointer;
+}
+.btn button:active{
+  background-color: white;
+}
+
+.quiz footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: orange;
+  padding: 0.5rem 2rem;
+}
+.quiz footer button {
+  background-color: brown;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 10px;
+  margin-left: 1rem;
+}
+.quiz footer button:active{
+    background-color: yellow;
+    color: black;
+}
+.quiz footer button:hover{
+  cursor: pointer;
+}
+ */
+
+ /* ---------------------------- */
+
+
+ /* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.quiz {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: orange;
+  color: #333;
+}
+
+/* Header section */
+.quiz header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 15px 25px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  font-weight: 600;
+}
+
+.quiz header h4 {
+  font-size: 1.1rem;
+  color: #2c3e50;
+}
+
+/* Main content */
+.quiz main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 20px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Question text */
+.qst {
+  background: wheat;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Options section */
+.opt {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.opt div {
+  background: wheat;
+  border: 1px solid black;
+  padding: 10px 15px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.opt div:hover {
+  background-color: #e6f0ff;
+  transform: scale(1.02);
+}
+
+.opt input {
+  margin-right: 10px;
+  accent-color: green;
+}
+
+.opt label {
+  font-size: 1rem;
+}
+
+/* Navigation buttons */
+.btn {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.btn button {
+  background: #5b6ce3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn button:hover {
+  background: #4355c6;
+  transform: translateY(-2px);
+}
+
+/* Footer section */
+.quiz footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  padding: 15px 25px;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.quiz footer button {
+  background: green;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin-left: 10px;
+}
+
+.quiz footer button:hover {
+  background-color: rgb(79, 207, 79);
+}
+
+.quiz footer button:disabled {
+  background-color: #b6bdfc;
+  cursor: not-allowed;
+}
+
+/* Timer color flash (optional animation) */
+.quiz header h4:last-child {
+  color: #e74c3c;
+  /* animation: pulse 1s infinite alternate; */
+}
+
+@keyframes pulse {
+  from {
+    opacity: 0.8;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .quiz main {
+    padding: 20px 15px;
+  }
+
+  .qst {
+    font-size: 1rem;
+  }
+
+  .quiz footer {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
