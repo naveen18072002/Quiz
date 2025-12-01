@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import "./welcome.css";
+import "./Welcome.css";
 import { Link } from 'react-router-dom';
 import { myContext } from '../Context';
 
