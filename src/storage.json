@@ -62,7 +62,7 @@
     "id":"8",
     "question": "8.What is the size of int data type in Java?",
     "options": ["A)8 bits", "B)16 bits", "C)32 bits", "D)64 bits"],
-    "CorrectAnswer": "c)32 bits",
+    "CorrectAnswer": "C)32 bits",
     "YourAnswer":null
   },
   {
