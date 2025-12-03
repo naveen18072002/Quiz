@@ -68,7 +68,7 @@
   {
     "id":"9",
     "question": "9.Which of the following can be used to handle exceptions in Java?",
-    "options": ["A)try-catch", "B)throw", "C)throws", "D)All of th above"],
+    "options": ["A)try-catch", "B)throw", "C)throws", "D)All of the above"],
     "CorrectAnswer": "D)All of the above",
     "YourAnswer":null
   },
